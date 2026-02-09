@@ -1,0 +1,3 @@
+Starting a cluster
+minikube start --driver=Container manager // i will be using docker
+Checking the status of our cluster minikube status
