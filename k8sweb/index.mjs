@@ -2,7 +2,7 @@ import express from 'express';
 import os from 'os';
 
 const app = express();
-const PORT = 30000;
+const PORT = 3000;
 
 app.get('/', (req, res) => {
   const hostname = os.hostname();
